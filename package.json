@@ -1,0 +1,29 @@
+{
+  "name": "tap-token",
+  "version": "1.0.0",
+  "description": "TAP ERC-20 Token - Production-ready token for EVM-compatible blockchains",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network bscTestnet",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "erc20",
+    "token",
+    "solidity",
+    "hardhat",
+    "bsc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.0"
+  }
+}
